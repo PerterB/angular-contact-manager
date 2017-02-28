@@ -18,12 +18,10 @@ function ContactNewController (ContactService, $state){
   ctrl.createNewContact = function (event){
     ContactService.createNewContact(event.contact)
       .then(function (contact) {
-        console.log(contact.key);
-        $state.go ('contact',{
+        $state.go ('contacts',{
           id: contact.key
         });
-      })
-    //ctrl.contact
+      });
   }
 }
 

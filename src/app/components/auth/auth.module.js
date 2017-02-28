@@ -4,11 +4,11 @@ angular
     'firebase'
   ]).config(function($firebaseRefProvider){
   var config = {
-      apiKey: "AIzaSyBF-WCC5  KqDsZ1C2kGkTa5WXwacDq9cEA4",
-      authDomain: "contact-manager-dd6c5.firebaseapp.com",
-      databaseURL: "https://contact-manager-dd6c5.firebaseio.com",
-      storageBucket: "contact-manager-dd6c5.appspot.com",
-      messagingSenderId: "49362835449"
+       apiKey: "AIzaSyDT0Y-yKycEqZcktEPsiq3iwIOdVg5Xzos",
+    authDomain: "contacts-manager-53cb1.firebaseapp.com",
+    databaseURL: "https://contacts-manager-53cb1.firebaseio.com",
+    storageBucket: "contacts-manager-53cb1.appspot.com",
+    messagingSenderId: "776952146033"
   };
   $firebaseRefProvider.registerUrl({
     default:config.databaseURL,

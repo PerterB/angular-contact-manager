@@ -1,0 +1,17 @@
+<div class="contacts">
+    
+  <div ng-click="$ctrl.savePost()">Add Post</div>
+
+  <ul class="contacts-list">
+    <li ng-repeat="post in $ctrl.posts">
+      {{::post.id}}: {{::post.title}}
+    </li>
+  </ul>
+
+
+  <div class="contacts__empty" ng-if = "!$ctrl.posts.length">
+    <i class="material-icons">face
+      There is no one here yet
+    </i>
+  </div>
+</div>
